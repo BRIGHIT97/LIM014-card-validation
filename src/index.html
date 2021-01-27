@@ -15,7 +15,7 @@
         <div>
           <br><br><br><br><br>
           <label class= "cardNumber" for="cardNumber"> Ingrese Número de Tarjeta</label>
-        <div><input type="text" id="cardNumber"  value="" minlength="15" maxlength="16" placeholder="1234 5678 9012 3145" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 &&   event.charCode != 32)" min="1" required=''></div> 
+        <div><input type="text" id="cardNumber"  value="" minlength="15" maxlength="16" placeholder="1234 5678 9012 3145" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 &&   event.charCode != 32)" min="1" required=""></div> 
         </div>
         <div class="codFecha">
           <label class="expiry" for="expiry" >VENCE</label>
@@ -23,10 +23,11 @@
           <label class="cardCode" for="cardCode">CCV</label>
           <input type="text" id="cardCode"  placeholder="123" maxlength="3" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 &&   event.charCode != 32)" min="1"  required>
           <input type="submit" class="validar" id="validar" value="Validar Tarjeta" >
-            <!--Validar si es correcto o no el numero del card number --></div>
+            <!--Validar si es correcto o no el numero del card number -->
         
         </div>
       </form>
+    </div>
                   
       
 
@@ -38,5 +39,5 @@
       <p>Copyright © 2021 Brighit Quisuruco</p>
   </footer>
     <script src="index.js" type="module"></script>
-  </body>
+</body>
 </html>
