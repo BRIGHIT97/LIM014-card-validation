@@ -11,7 +11,7 @@ function validarCard(event){
     var userNumInput = document.getElementById("cardNumber").value;
     var expiry = document.getElementById("expiry").value;
     var cardCode = document.getElementById("cardCode").value;
-        
+    
     
     if ((userNumInput == "") || (expiry== "") ||(cardCode == "") ) {  //COMPRUEBA CAMPOS VACIOS
         alert("Los campos no pueden quedar vacios");

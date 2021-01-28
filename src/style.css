@@ -1,11 +1,10 @@
 body{
-  background-color: rgb(17, 49, 136);
+  background-color: rgb(6, 37, 124);
   margin-bottom: 20px;
-  
 }
 
 header {
-  left: 21.67%;
+  left: 20.67%;
   right: 22.22%;
   
   font-family: MuseoModerno;
@@ -17,7 +16,13 @@ header {
   
   color: #FFD12E;
   margin-top:20px;
+}
 
+.bienvenido{
+  margin-left: 120px;
+  height: 83px;
+  padding-top: 53px;
+  color: white;
 }
 
 main {
@@ -26,21 +31,26 @@ main {
   font-family:sans-serif;
   font-style:italic;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 10px;
   text-align: center;
 
-
+  left: 20.67%;
+  right: 22.22%;
+   
+  margin-top:20px;
 }
 
 
 footer{
+  left: 20.67%;
+  right: 22.22%;
+  
   color: white;
   text-align:center;
   background-position: center;
   margin-top:15px;
   padding: 7px;
-
 }
 
 
@@ -69,7 +79,7 @@ footer{
   padding: 4px;
   border-radius: 5px;
   margin-left: 50px;
-       
+  margin-top: 0px;   
 }
 
 #cardNumber{
@@ -86,10 +96,16 @@ footer{
   letter-spacing: 2px;
   
 }
+.codeFecha{
+  height: 70px;
+  padding-top: 10px;
+  margin-top: 20px;
+}
 
 .expiry{
   width: 5%;
   margin-left: 50px;
+  margin-top: 20px;
 }
 
 #expiry{
@@ -102,14 +118,13 @@ footer{
   border-bottom: black;
   text-align: center;
   scroll-margin-left: 50px;
-  margin-left: 5px;
-  
-  
+  margin-left: 5px;  
 }
 
 .cardCode{
   margin-left: 80px;
 }
+
 #cardCode{
   color: rgb(0, 0, 0);
   width: 10%;
@@ -121,13 +136,11 @@ footer{
   left:100px;
   text-align: center;
   margin-left: 5px;
-  
 }
 
 .validar{
   background-position: center;
   text-align: center;
- 
 }
 
 #validar{
@@ -142,7 +155,7 @@ footer{
   font-size: 15px;
   background-color: #eec32a;
   margin-left: 45px;
-  margin-top: 0px;
+  margin-top: 4px;
 }
 
 .secondContainer{
@@ -155,5 +168,4 @@ footer{
   margin-left: 30.67%;
   margin-right: 22.22%;
   font-size: 25px;
-  
 }
