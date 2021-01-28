@@ -2,18 +2,19 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css"/>
+    <title>Valid-Card</title>
+    <link  rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="imagenes/Tarjeta1.png" >
   </head>
   <body>
 
-    <header>Valid-Card</header>
+    <header>💳 Valid-Card</header>
     <main>Tu mejor opción para validar tu tarjeta de credito y/o debito</main>
     
     <div id="firstContainer" class="firstContainer">
       <form class="form">
         <div>
-          <br><br><br><br><br>
+          <h2 class="bienvenido">Bienvenid@</h2><br>
           <label class= "cardNumber" for="cardNumber"> Ingrese Número de Tarjeta</label>
         <div><input type="text" id="cardNumber"  value="" minlength="15" maxlength="16" placeholder="1234 5678 9012 3145" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 &&   event.charCode != 32)" min="1" required=""></div> 
         </div>
@@ -27,10 +28,8 @@
         
         </div>
       </form>
-    </div>
-                  
+    </div>      
       
-
     <div id="secondContainer" class="secondContainer" >
       <div id="result"></div>
     </div>
