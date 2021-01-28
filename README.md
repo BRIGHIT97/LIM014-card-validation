@@ -38,6 +38,28 @@ necesitaría validar una tarjeta de crédito y pensar en cómo debe ser esa
 experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?)
 etc.
 
+    Valid-Card
+==================
+
+Sobre el Proyecto
+------------------
+
+Valid-Card es una plataforma web que permite validar el número de trajeta (crédito o débito) que quiera usar para compras online
+
+![Imagen del proyecto final](./src/imagenes/ProyectoFinal.JPG)
+
+Sobre el Usuario
+------------------
+
+**Usuarios**
+
+   Esta plataforma esta dirigida a personas en general que cuenten con una tarjeta de crédito o débito y necesiten hacer compras de manera online o cualquier otra transacion en line y quieren validar el número de su tarjeta.
+
+   * El usuario podra verificar la validez de su tarjeta antes de alguna compra o transacción online, dandole mayor seguridad en el proceso de compra.
+
+   ![Prototipo](./src/imagenes/Prototipo.jpeg)
+
+
 ## 3. Objetivos de aprendizaje
 
 Trabajando en parejas aprenderán a construir una aplicación web que interactuará
@@ -128,6 +150,7 @@ cómo tu aplicación lo soluciona.
   ([Balsamiq](https://balsamiq.com/), [Figma](https://www.figma.com/),
   [Google Slides](https://www.google.com/intl/es/slides/about/), etc.)
 Estos puntos los presentarás en el `README.md`.
+
 
 ### Scripts / Archivos
 
