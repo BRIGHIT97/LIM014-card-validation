@@ -24,17 +24,18 @@ function validarCard(event){
    
     if (tarjetaValida == true){
     
-        document.getElementById("secondContainer").innerHTML = "La tarjeta " + enmascarado + " es válida" ;
-        
+        document.getElementById("secondContainer").innerHTML = "La tarjeta es válida" ;
+       /*document.querySelector('.valido').style.display="block";*/
     }
     else {
     
-        document.getElementById("secondContainer").innerHTML = "La tarjeta " + enmascarado + " es inválida";
-         
-        
+        document.getElementById("secondContainer").innerHTML = "La tarjeta NO es inválida";
+        /*document.querySelector('.novalido').style.display="block";*/
 
     }
 
+    document.getElementById("cardNumber").value = enmascarado;
 }
+
 
 
