@@ -38,7 +38,7 @@ necesitaría validar una tarjeta de crédito y pensar en cómo debe ser esa
 experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?)
 etc.
 
-    Valid-Card
+Valid-Card
 ==================
 
 Sobre el Proyecto
