@@ -8,9 +8,9 @@ document.getElementById("validar").addEventListener("click", validarCard);
 function validarCard(event){
     event.preventDefault();
  
-    var userNumInput = document.getElementById("cardNumber").value;
-    var expiry = document.getElementById("expiry").value;
-    var cardCode = document.getElementById("cardCode").value;
+    const userNumInput = document.getElementById("cardNumber").value;
+    const expiry = document.getElementById("expiry").value;
+    const cardCode = document.getElementById("cardCode").value;
     
     
     if ((userNumInput == "") || (expiry== "") ||(cardCode == "") ) {  //COMPRUEBA CAMPOS VACIOS

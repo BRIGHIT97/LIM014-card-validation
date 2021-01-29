@@ -1,6 +1,6 @@
 const validator = {  
   isValid: function (creditCardNumber) {
-    let stringInvertido = creditCardNumber.split("").reverse().join("");
+    const stringInvertido = creditCardNumber.split("").reverse().join("");
   
     let validador;
     let sumaTotal = 0;
@@ -9,7 +9,7 @@ const validator = {
 
     for (let i = 1; i < stringInvertido.length; i += 2) {
       //*//*console.log("numero par " + stringInvertido.charAt(i))//;
-      let numeroPar = parseInt(stringInvertido.charAt(i) * 2);
+      const numeroPar = parseInt(stringInvertido.charAt(i) * 2);
       //*console.log("numero " + numeroPar)//;
 
       if (numeroPar >= 10) {
