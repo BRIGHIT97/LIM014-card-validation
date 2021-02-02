@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Valid-Card</title>
+    <link  rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="imagenes/Tarjeta1.png" >
+  </head>
+  <body>
+
+    <header>💳 Valid-Card</header>
+    <main>Tu mejor opción para validar tu tarjeta de credito y/o debito</main>
+    
+    <div id="firstContainer" class="firstContainer">
+      <form class="form">
+        <div>
+          <h2 class="bienvenido">Bienvenid@</h2><br>
+          <label class= "cardNumber" for="cardNumber"> Ingrese Número de Tarjeta</label>
+        <div><input type="text" id="cardNumber"  value="" minlength="15" maxlength="16" placeholder="1234 5678 9012 3145" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 &&   event.charCode != 32)" min="1" required=""></div> 
+        </div>
+        <div class="codFecha">
+          <label class="expiry" for="expiry" >VENCE</label>
+          <input type="text" id="expiry"   placeholder="MM/YY" value=""  required>
+          <label class="cardCode" for="cardCode">CCV</label>
+          <input type="text" id="cardCode"  placeholder="123" maxlength="3" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 &&   event.charCode != 32)" min="1"  required>
+          <input type="submit" class="validar" id="validar" value="Validar Tarjeta" >
+            <!--Validar si es correcto o no el numero del card number -->
+        
+        </div>
+      </form>
+    </div>      
+      
+    <div id="secondContainer" class="secondContainer" >
+      <div id="result">
+      <!--<div><img src="imagenes/valido.png" alt="valido" class="valido"  style="display:none">
+       <img src="imagenes/novalido.png" alt="novalido" class="novalido" style="display:none"></div>-->
+      </div>
+    </div>
+
+    <footer>
+      <p>Copyright © 2021 Brighit Quisuruco</p>
+  </footer>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
